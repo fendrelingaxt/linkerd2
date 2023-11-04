@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -eu
+set -e
 
 docker buildx &> /dev/null || { echo 'Please install docker buildx before proceeding'; exit 1; }
 
